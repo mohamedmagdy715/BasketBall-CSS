@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(to bottom, #90dffe 0%,#38a3d1 100%);
-    background-size: cover;
+    /* background-size: cover; */
   }
   
   @keyframes bounce {
@@ -163,4 +163,11 @@ body {
     border: solid 0.4em #9b1c1c;
     border-radius: 50%;
     box-sizing: border-box;
+  }
+
+  @media only screen and (max-width : 1365px) {
+    .added{
+      display: none;
+    }
+    
   }
